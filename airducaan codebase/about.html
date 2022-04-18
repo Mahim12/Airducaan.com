@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html manifest="app_cache.appcache">
+
+<head>
+    <title>Incomm</title>
+    <link rel="icon" type="image/svg" href="assets/photos/icons/favicon.svg" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    </style>
+</head>
+
+<body style="background-color:#f9f9f9;">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+        <a class="navbar-brand" href="index.php"><img src="assets/photos/icons/Logo1.svg" alt="image"
+                style="height:55px; object-fit:cover;" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mr-lg-4">
+                <li class="nav-item">
+                    <a class="nav-link navs-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navs-link" href="contact.php" href="#">CONTACT</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link navs-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        CATEGORIES
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <form id="search-form" method="post" name="name" action="search.php" target="_self"><button
+                                class="dropdown-item" name="name" value="Fashion & Lifestyle">Fashion &
+                                Lifestyle</button></form>
+                        <div class="dropdown-divider"></div>
+                        <form id="search-form" method="post" name="name" action="search.php" target="_self"><button
+                                class="dropdown-item" name="name" value="Gadgets & Electronics">Gadgets and
+                                Electronics</button></form>
+                        <div class="dropdown-divider"></div>
+                        <form id="search-form" method="post" name="name" action="search.php" target="_self"><button
+                                class="dropdown-item" name="name" value="Babies & Toys">Babies & Toys</button></form>
+                        <div class="dropdown-divider"></div>
+                        <form id="search-form" method="post" name="name" action="search.php" target="_self"><button
+                                class="dropdown-item" name="name" value="Sports">Sports</button></form>
+                        <div class="dropdown-divider"></div>
+                        <form id="search-form" method="post" name="name" action="search.php" target="_self"><button
+                                class="dropdown-item" name="name" value="Books">Books</button></form>
+                        <div class="dropdown-divider"></div>
+                        <form id="search-form" method="post" name="name" action="search.php" target="_self"><button
+                                class="dropdown-item" name="name" value="Home & Lifestyle">Home & Lifestyle</button>
+                        </form>
+                        <div class="dropdown-divider"></div>
+                        <form id="search-form" method="post" name="name" action="search.php" target="_self"><button
+                                class="dropdown-item" name="name" value="Accessories">Accessories</button></form>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0" method="post" name="name" action="search.php" target="_self">
+                <input class="form-control mr-sm-2" name="name" type="search" placeholder="I want to compare. . ."
+                    required>
+                <button class="btn btn-danger my-2 my-sm-0" type="submit" onsubmit="return OnButton1();">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="page-footer hide-on-desktop-only">
+        <div class="search-container">
+            <form method="post" name="name" action="search.php" target="_self">
+                <input type="search" placeholder="I want to compare. . ." name="name" required>
+                <button onsubmit="return OnButton1();" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <div class="container mt-5 mt-lg-3">
+        <div class="row mb-lg-5 mb-md-5 mb-5 p-lg-5 p-md-5 p-5" style="background: white;" id="about">
+            <div class="col-lg-5 col-md-5 col-12 pt-lg-5 pt-md-5">
+                <div class="about-section-container-one">
+                    <h1>ABOUT US</h1>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-7 col-12 mt-2">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-12">
+                        <div class="about-section-container-two">
+                            <p>SEARCH. COMPARE. SAVE.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-12">
+                        <div class="about-section-container-three">
+                            <p>We know shopping online can be paralyzing to say the least with so many platforms and
+                                thousands of products to choose from. So we at Incomm aim to be your one stop
+                                destination to compare and buy what you desire. We are on a mission to provide you the
+                                ultimate online shopping experience in Nepal.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

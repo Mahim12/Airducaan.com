@@ -1,0 +1,9 @@
+DirectoryIndex Home.php
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $Home.php [NC,L]
+RewriteRule ^([^\.]+)$ $Search.php [NC,L]
+RewriteRule ^([^\.]+)$ $Contact.php [NC,L]
+RewriteRule ^([^\.]+)$ $Submit.php [NC,L]
+RewriteRule ^([^\.]+)$ $About.html [NC,L]
