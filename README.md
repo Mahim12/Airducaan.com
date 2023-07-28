@@ -14,7 +14,7 @@ Welcome to Airducaan.com! This project is the result of my passion for web devel
 
 The main objective of Airducaan.com is to provide users with a platform to compare prices of various ecommerce products in India. The website scrapes prices from multiple ecommerce sites, allowing users to find the best deals and make informed purchasing decisions.
 
-#**Technical Details**
+# **Technical Details**
 
 **Web Scraping**
 
