@@ -1,6 +1,6 @@
 # airducaan.com
 
-**Introduction**
+# **Introduction**
 Welcome to Airducaan.com! This project is the result of my passion for web development and my desire to create a platform that allows users to compare ecommerce prices in India and eventually expand to serve Nepal as well. Inspired by Trivago's hotel price comparison ad, I embarked on this journey during my 4th year of studies. While my initial attempts were limited, I never gave up on the idea and finally brought it to fruition during the summer of 2020.
 
 4. Importance of a database because I was scraping without storing it which made the site too slow. 
